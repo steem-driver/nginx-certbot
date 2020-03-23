@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(steem.buzz www.steem.buzz)
+domains=(notification-api.steem.buzz)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="steem.guides@gmail.com" # Adding a valid address is strongly recommended
